@@ -6,9 +6,10 @@ import Medicamentos from './components/Medicamentos'
 function App() {
   return (
     <>
-     <Header/>
-     <Medicamentos/>
+    <Header />
+    <Medicamentos />
     </>
+    
   )
 }
 

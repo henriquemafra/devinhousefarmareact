@@ -11,7 +11,7 @@ const LikeButton = () => {
 
   return (
     <button 
-      className={`p-1 m-1 ml-2 rounded-full transition-colors ${liked ? 'text-red-500' : 'text-gray-500'}`}
+      className={`pt-2 pb-1 px-2 ml-3 border-gray-300 border-2 rounded-2xl transition-colors ${liked ? 'text-red-500' : 'text-gray-500'}`}
       onClick={handleLikeClick}
     >
       <FontAwesomeIcon icon={faHeart} className="w-5 h-5" />

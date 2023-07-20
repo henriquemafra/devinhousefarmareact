@@ -56,17 +56,16 @@ function Medicamentos() {
 
   return (
     <div className="p-4 max-w-screen-lg mx-auto">
-    <h1 className="text-left mb-4 text-xl">Todos os medicamentos</h1>
+    <h1 className="text-center mb-4 text-3xl">Todos os medicamentos</h1>
     <div className="grid gap-8 grid-cols-1 md:grid-cols-3">
       {medicamentos.map((medicamento) => (
-        <div key={medicamento.id} className="bg-white text-center p-4 shadow rounded">
-          <img className="w-full mx-auto mb-4" src={medicamento.imagem} alt={medicamento.nome} />
+        <div key={medicamento.id} className="bg-white border-gray-300 border text-center p-4 shadow rounded">
+          <img className="w-2/4 mx-auto mb-4" src={medicamento.imagem} alt={medicamento.nome} />
           <h3 className="text-md">{limitarNome(medicamento.nome, 30)}</h3>
           <h2 className="text-lg">R$ {medicamento.preco.toFixed(2)}</h2>
 
-          {/* Novo contêiner flex para botão Adicionar e LikeButton */}
           <div className="flex justify-between mt-4">
-            <button className="rounded-full w-full text-white bg-blue-700 flex items-center justify-center">
+            <button className="rounded-full ml-5 w-3/4 text-white bg-blue-700 flex items-center justify-center">
               Adicionar <SlBasket className="ml-2" />
             </button>
             <LikeButton />
