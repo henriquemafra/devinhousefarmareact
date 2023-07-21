@@ -55,8 +55,8 @@ function Medicamentos() {
 
 
   return (
-    <div className="p-4 max-w-screen-lg mx-auto">
-    <h1 className="text-center mb-4 text-3xl">Todos os medicamentos</h1>
+    <div className="p-4  max-w-screen-lg mx-auto">
+    <h1 className="text-center mb-4 text-md">Todos os medicamentos</h1>
     <div className="grid gap-8 grid-cols-1 md:grid-cols-3">
       {medicamentos.map((medicamento) => (
         <div key={medicamento.id} className="bg-white border-gray-300 border text-center p-4 shadow rounded">

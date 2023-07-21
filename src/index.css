@@ -7,3 +7,7 @@
 html {
     font-family: 'Lato', sans-serif;
 }
+
+.custom-placeholder::placeholder {
+    font-size: 0.75rem; /* Tamanho do texto do placeholder personalizado */
+  }
