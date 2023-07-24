@@ -2,12 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-html {
-    font-family: 'Lato', sans-serif;
+* {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .custom-placeholder::placeholder {
     font-size: 0.75rem; /* Tamanho do texto do placeholder personalizado */
   }
+
+  .dark-theme {
+    background-color: #161616;
+    color: #fff;
+  }
+  
+  .dark-theme .buttons {
+    background-color: #3750f0;
+     }
+  
+  .dark-theme input {
+    color: black
+  }
+
+  .dark-theme header {
+    background-color: #161616;
+  }
+
+  .dark-theme .mobile-menu {
+    background-color: #161616;
+    color: white;
+  }
+
+
+  
+
+  
