@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "nome": "Shampoo Grecin Control Gx Redutor De Grisalhos 147ml",
+      "preco": 22.89,
+      "imagem": "./public/produtos/1.webp",
+      "quantidade": 1
+    },
+    {
+      "id": 2,
+      "nome": "Isdin Fusion Water Protetor Solar 30ml Fps60 Oil Control",
+      "preco": 38.76,
+      "imagem": "./public/produtos/2.webp",
+      "quantidade": 1
+    },
+    {
+      "id": 3,
+      "nome": "Cloreto De Magnesio Medinal Com 100 Capsulas 500mg",
+      "preco": 25.76,
+      "imagem": "./public/produtos/6.webp",
+      "quantidade": 1
+    },
+    {
+      "id": 4,
+      "nome": "Cimegripe 400mg Com 20 Cápsulas",
+      "preco": 12.96,
+      "imagem": "./public/produtos/3.webp",
+      "quantidade": 1
+    },
+    {
+      "id": 5,
+      "nome": "Baristar Suplemento Com 100 Cápsulas",
+      "preco": 16.96,
+      "imagem": "./public/produtos/5.webp",
+      "quantidade": 1
+    },
+    {
+      "id": 6,
+      "nome": "Simeticona Biosintética 125mg Com 10 Cápsulas",
+      "preco": 14.76,
+      "imagem": "./public/produtos/4.webp",
+      "quantidade": 1
+    }
+  ]
+  

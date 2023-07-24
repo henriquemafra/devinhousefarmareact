@@ -3,7 +3,7 @@ import { TfiSearch } from "react-icons/tfi";
 
 function Search () {
     return (
-        <div className="flex w-full pt-20 justify-center items-center">
+        <div className="flex w-full pt-20 pb-2 justify-center items-center">
     <input
         className="border flex w-full text-center justify-center ml-2 p-1 w-36 md:w-64 outline-none custom-placeholder rounded-l-lg"
         type="text"

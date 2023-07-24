@@ -1,25 +1,28 @@
-// App.js
+import './index.css';
 
-import './index.css'
-import './App.css'
-import Header from './components/header'
-import Medicamentos from './components/Medicamentos'
-import Search from './components/search'
-import { ThemeContext } from './components/context/ThemeContext';
 import React, { useContext } from "react";
+import { ThemeContext } from './components/context/ThemeContext';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+
+import Header from './components/header';
+import Search from './components/search';
+import Slider from './components/Slider';
+import DarkMode from './components/DarkMode';
+import Footer from './components/router/Footer';
+import Newsletter from './components/Newsletter';
 
 function App() {
-
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <div className={`App ${theme === "Dark" ? "dark-theme add-button" : ""}`}>
+       <div className={`App ${theme === "Dark" ? "dark-theme add-button" : ""}`}>
         <Header />
-        <Search />
-        <Medicamentos />
-        <button onClick={toggleTheme}>MUDAR</button>
+        <Outlet />
+        <Newsletter />
+        <Footer />
+        <DarkMode />
       </div>
-    
   );
 }
 

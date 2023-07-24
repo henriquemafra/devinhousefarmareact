@@ -1,19 +1,25 @@
+/* Tailwind Imports */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/*Font Config */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 * {
     font-family: 'Ubuntu', sans-serif;
 }
 
+/* PlaceHolders Font Size Config */
+
 .custom-placeholder::placeholder {
     font-size: 0.75rem; /* Tamanho do texto do placeholder personalizado */
   }
 
+
+/*Dark Theme Config */
   .dark-theme {
-    background-color: #161616;
+    background-color: #424141;
     color: #fff;
   }
   
@@ -26,11 +32,11 @@
   }
 
   .dark-theme header {
-    background-color: #161616;
+    background-color: #424141;
   }
 
   .dark-theme .mobile-menu {
-    background-color: #161616;
+    background-color: #424141;
     color: white;
   }
 
